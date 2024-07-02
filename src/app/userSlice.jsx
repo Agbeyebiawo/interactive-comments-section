@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
     currentUser:{
         image:{
-            png: "../avatars/image-juliusomo.png"
+            png: "./avatars/image-juliusomo.png"
         },
         username:"juliusomo"
     }
