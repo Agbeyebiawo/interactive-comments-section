@@ -9,8 +9,8 @@ const initialState = {
             score: 12,
             user: {
                 image: { 
-                png: "../avatars/image-amyrobson.png",
-                webp: "../avatars/image-amyrobson.webp"
+                png: "./avatars/image-amyrobson.png",
+                webp: "./avatars/image-amyrobson.webp"
                 },
                 username: "amyrobson"
             },
@@ -23,8 +23,8 @@ const initialState = {
             score: 5,
             user: {
               image: { 
-                png: "../avatars/image-maxblagun.png",
-                webp: "../avatars/image-maxblagun.webp"
+                png: "./avatars/image-maxblagun.png",
+                webp: "./avatars/image-maxblagun.webp"
               },
               username: "maxblagun"
             },
@@ -37,8 +37,8 @@ const initialState = {
                 replyingTo: "maxblagun",
                 user: {
                   image: { 
-                    png: "../avatars/image-ramsesmiron.png",
-                    webp: "../avatars/image-ramsesmiron.webp"
+                    png: "./avatars/image-ramsesmiron.png",
+                    webp: "./avatars/image-ramsesmiron.webp"
                   },
                   username: "ramsesmiron"
                 }
@@ -51,8 +51,8 @@ const initialState = {
                 replyingTo: "ramsesmiron",
                 user: {
                   image: { 
-                    png: "../avatars/image-juliusomo.png",
-                    webp: "../avatars/image-juliusomo.webp"
+                    png: "./avatars/image-juliusomo.png",
+                    webp: "./avatars/image-juliusomo.webp"
                   },
                   username: "juliusomo"
                 }
