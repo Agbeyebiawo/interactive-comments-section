@@ -10,6 +10,7 @@ import ReplyComment from './ReplyComment'
 import DeleteReply from '../Popup/DeleteReply'
 import { useContext } from 'react'
 import { PopProvider } from '../../context/PopContext'
+import {formatDistanceToNowStrict} from 'date-fns'
 
 const Reply = ({reply,currentUser,commentId}) => {
     const {popUp,showPopup} = useContext(PopProvider)
